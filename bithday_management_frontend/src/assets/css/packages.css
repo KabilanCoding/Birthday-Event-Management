@@ -1,0 +1,104 @@
+/* Packages.css */
+.body {
+  background-color: white;
+}
+.happy-show {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.happy-show h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  padding-top: 4rem;
+}
+
+.happy-show p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.package {
+  background: linear-gradient(135deg, #fff, #f2f2f2); /* Gradient background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  padding: 2rem;
+  flex-basis: 30%;
+  text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.package:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly bigger shadow on hover */
+}
+
+.package h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.package p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #ac87c5;
+}
+
+.package ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.package li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.package button {
+  background: linear-gradient(135deg, #ac87c5, #c0a3d3);
+  /* Gradient button */
+  margin: 2%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out; /* Smooth transition */
+}
+
+.package button:hover {
+  background: linear-gradient(
+    135deg,
+    #ac87c5,
+    #ac87c5
+  ); /* Darker gradient on hover */
+}
+
+.free-trial {
+  background: linear-gradient(135deg, #ac87c5, #ac87c5);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.free-trial:hover {
+  background: linear-gradient(135deg, #ac87c5, #ac87c5);
+}
